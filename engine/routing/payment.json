@@ -1,0 +1,19 @@
+{
+    "sysdefault": {
+        "controller": "_404"
+    },
+    "sysnotfound": {
+        "controller": "_404"
+    },
+    "aliaction": {
+        "controller": "actions.Ali"
+    },
+    "ali": {
+        "controller": "Index",
+        "involve": [
+            {
+                "controller": "dddd.Ali"
+            }
+        ]
+    }
+}

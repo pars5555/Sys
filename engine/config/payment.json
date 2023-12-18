@@ -1,0 +1,36 @@
+{
+    "VERSION": "1.0.08",
+    "ENVIRONMENT": "dev",
+    "display_errors": 1,
+    "error_reporting": "E_ALL",
+    "log_level": "DEBUG",
+    "smarty": {
+        "caching": false,
+        "cache_lifetime": 3600,
+        "compile_check": true
+    },  
+    "log": {
+        "dump_request": true,
+        "dump_input": true
+    },   
+   "mysql": {
+        "host": "127.0.0.1",
+        "user": "sys",
+        "pass": "sys123",
+        "name": "sys"
+    }, 
+    "login": {
+        "type": "cookie",
+        "domain": "subdomain",
+        "expire_minutes": 1440,
+        "salt": "%gfht@#%#@&defr43#hj$j%#",
+        "params": {
+            "user_id": "iccadmin_uid",
+            "user_type": "iccadmin_utype",
+            "user_hash": "iccadmin_uhash"
+        }
+    },
+    "security": {
+        "encrypt_pk": "4YFkiy1O9Pr"
+    }
+}
